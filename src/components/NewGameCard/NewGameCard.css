@@ -1,0 +1,47 @@
+.new-game-card{
+    cursor: pointer;
+
+    width: 90%;
+    height: 200px;
+    
+    background-color: #8d8d8d6d !important;
+    
+    border-radius: 15px;
+    border: 5px var(--lg-gr-clr) solid;
+    
+    margin: auto;
+}
+.new-game-card:hover{
+    filter: brightness(200%);
+}
+.new-game-card p{
+    color: var(--lg-yw-clr);
+    margin: 15px;
+    text-align: center;
+    margin-top: 15%;
+
+    font-size: calc(1rem + 1vw);
+    font-family: var(--robots-text);
+}
+
+
+.new-game-card-title{
+    color: var(--lg-yw-clr);
+    text-align: center;
+    font-family: var(--robots-text);
+}
+.new-game-card-desc{
+    display: block;
+    text-align: center;
+    color: var(--lg-gr-clr);
+}
+
+.circle{
+    width: 15px;
+    height: 15px;
+
+    margin: 1vw;
+
+    background-color: var(--lg-rd-clr);
+    border-radius: 99px;
+}

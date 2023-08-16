@@ -1,0 +1,16 @@
+{
+  "es": {
+    "init-btns": {
+      "continue": "Continuar",
+      "newgame": "Nueva partida",
+      "settings": "Ajustes"
+    }
+  },
+  "en": {
+    "init-btns": {
+      "continue": "Continue",
+      "newgame": "New game",
+      "settings": "Settings"
+    }
+  }
+}

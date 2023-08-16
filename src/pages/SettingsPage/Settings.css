@@ -1,0 +1,48 @@
+#settings-main-container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img/local/scroll-code.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: var(--lg-gr-clr);
+}
+
+#settings-back-icon{
+    cursor: pointer;
+    color: var(--lg-yw-clr);
+    font-size: calc(1rem + 1vw);
+    margin: 1vw;
+}
+#settings-back-icon:hover{
+    filter: brightness(350%);
+    text-shadow: 0 5px 0 5px var(--dk-gr-clr);
+}
+
+.nav-link{
+    font-family: var(--robots-text);
+    font-size: larger;
+    color: var(--lg-yw-clr);
+    background-color: #8d8d8d6d;
+}
+.nav-link:hover{
+    color: var(--dk-gr-clr);
+}
+.nav-item:hover{
+    border: none;
+}
+.settings-tabs-lines{
+    border-color: var(--lg-yw-clr) !important;
+    border-width: 5px;
+}
+.settings-tabs{
+    background-color: var(--lg-gr-clr) !important;
+    border-color: var(--lg-yw-clr) !important;
+    border-width: 5px !important;
+}
+
+.tab-content{
+    width: 100vw;
+    height: 85vh;
+    background-color: #8d8d8d6d !important;
+}
